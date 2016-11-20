@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['kavu13@gmail.com']
   spec.description   = %q{Sprockets converter of PNG and JPEG assets to WebP}
   spec.summary       = %q{Sprockets converter of PNG and JPEG assets to WebP}
-  spec.homepage      = 'https://github.com/kavu/sprockets-webp'
+  spec.homepage      = 'https://github.com/jeevansirela/sprockets-webp'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = '>= 1.9.3'
 
-  spec.add_dependency 'sprockets', '~> 2.2'
+  spec.add_dependency 'sprockets', '>= 2.2'
   spec.add_dependency 'webp-ffi', '~> 0.2.0'
 
   spec.add_development_dependency 'bundler', '~> 1.3'
